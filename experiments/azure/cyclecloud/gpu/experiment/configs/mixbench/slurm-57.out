@@ -1,0 +1,23 @@
+Loading mpi/hpcx-pmix-2.18
+  Loading requirement:
+    /opt/hpcx-v2.18-gcc-mlnx_ofed-ubuntu22.04-cuda12-x86_64/modulefiles/hpcx-rebuild
+ERROR: Unable to locate a modulefile for 'cuda/11.8.0'
+Start time: 1724807648
+FATAL:   While checking image: could not open image /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: failed to retrieve path for /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: lstat /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: no such file or directory
+FATAL:   While checking image: could not open image /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: failed to retrieve path for /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: lstat /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: no such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+FATAL:   While checking image: could not open image /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: failed to retrieve path for /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: lstat /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: no such file or directory
+FATAL:   While checking image: could not open image /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: failed to retrieve path for /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: lstat /shared/containers/metric-mixbench_azure-hpc-gpu-ubuntu2204.sif: no such file or directory
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[40098,1],0]
+  Exit code:    255
+--------------------------------------------------------------------------
+real 2.08
+user 0.09
+sys 1.23
